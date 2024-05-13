@@ -1,0 +1,18 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.moto {
+    display: flex;
+    justify-content: center;
+    
+}
+.body {
+    background-image: url(/imagens/fundo.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover; /*Organiza automativicamente a imagem*/    
+};
+
+.textoP {
+    font-size: arial;
+}
