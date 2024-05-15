@@ -1,9 +1,37 @@
 *{
     margin: 0%;
     padding: 0%;
+    color: white;
     
 }
+.listasPaginas {
+    display: flex;
+    justify-content: center; /*justifica o texto no site*/
+    background-image: url(/imagens/fundo.jpeg);
+    content: '\2022';
+    font-size: 20px;
+}
+.paginaInicial {
+    margin: 10px;
+}
+.quemSomos {
+    margin: 10px;
+}
+.historia {
+    margin: 10px;
+}
+.galeria {
+    margin: 10px;
+}
+.contato {
+    margin: 10px;
+}
 
+
+.listas {
+    
+    
+}
 .container {
     display: flex;
     flex-direction: row;
@@ -17,6 +45,7 @@
     padding: 16px;
     height: 500px;
 }
+
 .textoP {
     color: white;
     font-family: Arial, Helvetica, sans-serif;
@@ -69,7 +98,11 @@
     
     cursor: pointer;
 }
-
+.direitos {
+    
+    margin-top: 12%;
+    
+}
 
 
 
