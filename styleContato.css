@@ -133,6 +133,13 @@ input[type="submit"]:hover {
 .textof {
     color: black;
 }
-
+.instagram{
+    display: flex;
+    position: absolute;
+    height: 55px;
+    width: auto;
+    
+    
+}
 
 

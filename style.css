@@ -3,33 +3,46 @@
     padding: 0%;
     color: white;
     
+    
 }
 .listasPaginas {
     display: flex;
+    text-decoration: none;
     justify-content: center; /*justifica o texto no site*/
     background-image: url(/imagens/fundo.jpeg);
-    content: '\2022';
     font-size: 20px;
+    
 }
 .paginaInicial {
-    margin: 10px;
+    
+    list-style-type: none;
+    padding: 14px 20px;
+    display: inline;
+    text-decoration: none;
+    
+    
+
+    
 }
 .quemSomos {
-    margin: 10px;
+    padding: 14px 20px;
+    border-style: none;
+    
+    
 }
 .historia {
-    margin: 10px;
+    padding: 14px 20px;
 }
 .galeria {
-    margin: 10px;
+    padding: 14px 20px;
 }
 .contato {
-    margin: 10px;
+    padding: 14px 20px;
 }
 
 
 .listas {
-    
+    text-decoration: none;
     
 }
 .container {
@@ -44,12 +57,15 @@
     background-color: black;
     padding: 16px;
     height: 500px;
+    
 }
 
 .textoP {
     color: white;
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
+    
+
     
     
 }
@@ -68,12 +84,14 @@
     padding: 16px;
     height: 300px;
     
+    
 }
 .textDireito {
     color: black;
     text-align: center;
     padding: 50%;
     font-family: Arial, Helvetica, sans-serif;
+    
 }
 
 /*body {
@@ -101,6 +119,7 @@
 .direitos {
     
     margin-top: 12%;
+    
     
 }
 
