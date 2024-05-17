@@ -1,0 +1,138 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    color: white;
+    
+}
+.listasPaginas {
+    display: flex;
+    justify-content: center; /*justifica o texto no site*/
+    background-image: url(/imagens/fundo.jpeg);
+    content: '\2022';
+    font-size: 20px;
+}
+.paginaInicial {
+    margin: 10px;
+}
+.quemSomos {
+    margin: 10px;
+}
+.historia {
+    margin: 10px;
+}
+.galeria {
+    margin: 10px;
+}
+.contato {
+    margin: 10px;
+}
+
+
+.listas {
+    
+    
+}
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    align-content: center;
+    row-gap: 10px;
+    column-gap: 30px;
+    background-color: black;
+    padding: 16px;
+    height: 500px;
+}
+
+.textoP {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    
+    
+}
+.containerInterno {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    align-content: center;
+    row-gap: 10px;
+    column-gap: 30px;
+    background-image: url(/imagens/fundo.jpeg);
+    background-repeat: repeat,;
+    border-image: none;
+    padding: 16px;
+    height: 300px;
+    
+}
+.textDireito {
+    color: black;
+    text-align: center;
+    padding: 50%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*body {
+    content: ""; 
+    background-image: url(/imagens/fundo.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+    
+    
+    /*background-repeat: no-repeat;
+    background-size: cover;*/ /*Organiza automativicamente a imagem*/  
+/*} */ 
+
+
+.logo {
+    display: flex;
+    width: auto;
+    height: 300px;
+    
+    
+    cursor: pointer;
+}
+.direitos {
+    
+    margin-top: 12%;
+    
+}
+form {
+    width: 300px;
+    margin: 0 auto;
+    
+}
+input[type="text"],
+
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+input[type="submit"] {
+    background-color: #969c9c;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+input[type="submit"]:hover {
+    background-color: white;
+    color: black;
+}
+.textof {
+    color: black;
+}
+
+
+

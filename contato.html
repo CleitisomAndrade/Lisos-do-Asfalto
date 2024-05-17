@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Contato</title>
+    <link rel="stylesheet" href="styleContato.css">
 </head>
 <body>
     <div>
@@ -22,13 +22,22 @@
     <div class="container"><!--<img class="fundo" src="/imagens/fundo.jpeg" alt=""> -->
         
         <div> 
-            <div class="logo">
-                <img src="/imagens/logosemFundo.jpeg" alt="logo"> 
-            </div> 
+            
             <div class="container2">
                 <div class="textoP">
-                    <br><br><h1  >Lisos do Asfalto MC</h1>                    
-                    <p> Since 03/04/2013</p>
+                    <br><br><h1  >Fale Conosco:</h1><br><br>
+                    <form action="#" method="post">
+                        <label for="nome">Nome:</label><br>
+                        <input class="textof" type="text" id="nome" name="nome" required><br><br>
+                    
+                        <label for="email">Email:</label><br>
+                        <input class="textof" type="email" id="email" name="email" required><br><br>
+                    
+                        <label for="mensagem">Mensagem:</label><br>
+                        <textarea class="textof" id="mensagem" name="mensagem" rows="4" required></textarea><br>
+                    
+                        <input type="submit" value="Enviar">
+                    </form>                
                 </div>
             </div>
         </div>
