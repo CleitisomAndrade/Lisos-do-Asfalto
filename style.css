@@ -16,28 +16,29 @@
     
 }
 .listasPaginas {
-     display: contents;
+    
+     display: flex;
      justify-content: flex-end;
+
     
 } 
 .paginaInicial {
    
-    justify-content: flex-end;
+}
+.inicial {
+    padding-right: 30px;  
 }
 .quemSomos {
-    
-
-    
-    
+    padding-right: 20px;  
 }
 .historia {
-    
+    padding-right: 30px;  
 }
 .galeria {
-    
+    padding-right: 30px;  
 }
 .contato {
-    
+    padding-right: 30px;  
 }
 
 
@@ -47,11 +48,7 @@
     margin: 0;
     padding: 0;
     justify-content: center;
-    
-   
-
     font-size: 25px;
-    font-style: none;
     font-family: 'Times New Roman', Times, serif;
    
 }
