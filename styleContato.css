@@ -137,9 +137,9 @@ input[type="submit"]:hover {
     display: flex;
     position: absolute;
     height: 55px;
-    width: auto;
-    
-    
+    width: auto;   
 }
-
+a{
+    text-decoration: none;
+}
 
